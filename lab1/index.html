@@ -1,15 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Тульский пряник</title>
+    <link rel="stylesheet"  href="style.css">
 </head>
 
 <body>
-    lab1
+    <h1 style='text-align: center'>Тульский пряник с начинкой</h1>
+    <h2>вкус "Вареная сгущенка" <br> <br>
+    <img  src="imgs/pryanik.jpg" width="303" height="166" alt="Тульский пряник"> </h2>
+    <div class="intro" >
+        <p id="description"> <img  class="pam" src="imgs/tula.jpg"  alt="Памятник тульскому прянику"><span class="letter">П</span>ряник с начинкой «Варёная сгущёнка» является хитом продаж,
+        а сгущенка содержит большое количество кальция и минералов.  <br> Первые упоминания о тульских пряниках относятся к концу 17 <sup>-го</sup> века:
+        уже тогда в Туле готовили ароматные глазированные пряники, которые долго оставались свежими и вкусными.<br>
+        Современные пряники с начинками готовятся с середины прошлого века и считаются визитной карточкой Тулы! </p>
+        
+</div>
+    <table id="info" >
+        <caption>Информация о прянике </caption>
+        <tr>
+            <th> Вес штуки, г </th>
+            <td> 140 </td>
+             
+        </tr>
+        <tr>
+            <th> Срок годности, мес. </th>
+            <td> 6 </td>
+        </tr>
+        <tr>
+            <th> Белки, г. </th>
+            <td> 7 </td>
+        </tr>
+        <tr>
+            <th> Жиры, г. </th>
+            <td> 8 </td>
+        </tr>
+        <tr>
+            <th> Углеводы, г. </th>
+            <td> 69 </td>
+        </tr>
+        <tr>
+            <th> Энергетическая ценность, ккал. </th>
+            <td> 380 </td>
+        </tr>
+        <tr>
+            <th>Производитель </th>
+            <td> "Объединенные кондитеры" </td>
+        </tr>
+        
+    </table>
+<a href="https://www.uniconf.ru/about/" target="_blank">О холдинге "Объединенные кондитеры"</a>
+<div class="talk">
+    <table id = "comments">
+        <caption>Отзывы</caption>
+        <tr> <th> Мария Алексеевна </th>
+            <td> Вкусный пряник, свежий </td>
+        </tr>
+        <tr> <th> Георгий</th>
+            <td> Очень вкусный. </td>
+        </tr>
+        <tr> <th> Владислав </th>
+            <td> Без комментария </td>
+        </tr>
+        <tr> <th> Мак </th>
+            <td> Нам вообще привезли с черной смородиной! </td>
+        </tr>
+        <tr> <th> Светлана Алексеевна </th>
+            <td> Пряник понравился, вкусный традиционный пряник со сгущенным молоком </td>
+        </tr>
+        <tr> <th> андрей павлович  </th>
+            <td>фото на сайте отличается от действительности - нет фрагмента "с натуральным медом".
+                У меня нет аллергии на мед, а на этот пряник - появилась. </td>
+        </tr>
+        <tr> <th> Елена Геннадьевна  </th>
+            <td>Для любителей пряников вполне. Яркого вкуса сгущенки нет. Детям больше нравится тем не менее этот, а не с вареньем. </td>
+        </tr>
+    </table>
+    
+    <form>
+        <div id="auth">
+        <label > <b>Авторизация</b><sub>вход</sub></label><br><br>
+
+        <label style="margin-bottom: 5 px">Группа пользователей</label><br>
+        <select size="1" style="margin-top: 0%">
+            <option>Администратор</option>
+            <option>Клиент</option>
+          </select><br> <br>
+         <label for = "pass"> Пароль </label>  <br>
+         <input type="password" id="pass" name="pass" style="margin-top: 0%"><br><br>
+        
+                 <input type="reset" name="res"> 
+                  <input type="submit" name ="sub"> 
+</div>
+
+        </form>
+        </div>
+
+    
+
 </body>
 
 </html>
