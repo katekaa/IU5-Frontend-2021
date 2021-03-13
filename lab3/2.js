@@ -40,10 +40,10 @@ function getMinMax(str) {
     }
     const Fmin=min;
     const Fmax=max;
-    const text1='min';
-    const text2='max';
+    let obj = {min: min, 
+                max: max}
 
-    return `{max: ${Fmax}, min: ${Fmin}}`;
+    return obj;
     }
 
 module.exports = getMinMax;
